@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Claude Cert Prep — free study guides and mock exams for all four Claude certifications</title>
+<meta name="description" content="Open-source study guides and timed mock exams for the four Claude certifications: Associate Foundations, Developer Foundations, Architect Foundations and Architect Professional. Free, no sign-up, nothing stored on a server.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;560;600;640;680&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead" data-masthead></header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="shell">
+      <h1>Four certifications. One place to get ready for them.</h1>
+      <p class="hero__lede">Four separate exams, four separate sets of material. Each track has its own blueprint, its own study notes, and its own full-length mock &mdash; the same number of questions as the real paper, weighted the same way.</p>
+      <div class="hero__meta">
+        <span id="stat-questions">Loading question bank</span>
+        <span>Nothing leaves your browser</span>
+        <span>Blueprints v1.0, July 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="shell">
+      <div class="sectionhead">
+        <h2>Pick your track</h2>
+        <p>Each is an independent exam with its own blueprint. Every mock here is full length, matching the real item count and time limit. Your best score is stored locally on this device.</p>
+      </div>
+      <div class="board" id="board">
+        <div class="board__head">
+          <div>Certification</div>
+          <div>Items</div>
+          <div>Minutes</div>
+          <div>Your best</div>
+          <div><span class="visually-hidden">Actions</span></div>
+        </div>
+      </div>
+      <p class="callout" style="margin-top:1.25rem">
+        <strong>Practice scores are indicative.</strong> The real exams report a scaled score from 100 to 1,000 with 720 to pass.
+        Anthropic does not publish how raw answers map onto that scale, so the number here is a straight conversion from percent correct. Treat it as a readiness signal, not a prediction.
+      </p>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="shell">
+      <div class="sectionhead">
+        <h2>How to use it</h2>
+        <p>The same approach works for all four tracks.</p>
+      </div>
+      <div class="cardgrid">
+        <div class="card">
+          <h3>Sit the mock cold</h3>
+          <p>Before reading anything. A score you are embarrassed by is more useful than a study plan built on a guess, because it tells you which domains you can skip.</p>
+        </div>
+        <div class="card">
+          <h3>Study by weight, not by interest</h3>
+          <p>Every blueprint here shows each domain&rsquo;s share of the exam as a proportional bar. Spend your time where the marks are, which is rarely where the fun is.</p>
+        </div>
+        <div class="card">
+          <h3>Build something with the weak domain</h3>
+          <p>These exams lean on scenarios. Reading about termination conditions and hitting a runaway loop yourself produce very different exam performance.</p>
+        </div>
+        <div class="card">
+          <h3>Re-sit timed</h3>
+          <p>Every mock is the real length under the real clock, with options shuffled each attempt. Sitting 60 questions in 120 minutes is a different skill from answering ten well.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="shell">
+      <div class="sectionhead">
+        <h2>What this is, and what it is not</h2>
+      </div>
+      <div class="callout stack" style="--gap:.9rem">
+        <p><strong>It is</strong> an independent, open-source study project. Every study note, practice question, distractor and explanation was written from scratch for this repository.</p>
+        <p><strong>It is not</strong> affiliated with or endorsed by Anthropic, and it contains no real exam items. Nobody here has seen a live exam question, and none are wanted — reproducing them would breach the exam agreement you sign and would make the credential worth less for everyone holding it.</p>
+        <p><strong>Corrections are welcome.</strong> If a note is wrong or a blueprint has moved, open an issue or a pull request. Contributing guidance is in the repository.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefoot" data-sitefoot></footer>
+
+<script src="assets/js/app.js"></script>
+<script src="data/ccao-f.js"></script>
+<script src="data/ccdv-f.js"></script>
+<script src="data/ccar-f.js"></script>
+<script src="data/ccar-p.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>

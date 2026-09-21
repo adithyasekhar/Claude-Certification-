@@ -1,0 +1,47 @@
+Claude Cert Prep — dual licence
+
+--------------------------------------------------------------------
+CODE (everything in assets/, and all HTML files)
+MIT License
+
+Copyright (c) 2026 Claude Cert Prep contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------
+STUDY CONTENT (everything in data/ — notes, questions, explanations)
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit to this repository.
+
+--------------------------------------------------------------------
+TRADEMARK AND ATTRIBUTION NOTE
+
+"Claude" and "Anthropic" are trademarks of Anthropic PBC. This project is
+not affiliated with, endorsed by, or sponsored by Anthropic. The
+certification names are used descriptively, to identify the exams this
+material prepares candidates for.
+
+Exam facts reproduced here (item counts, time limits, fees, pass marks and
+domain weights) are factual reference summarised from Anthropic's published
+exam guides and attributed to them. No exam questions, exam guide prose, or
+other copyrighted material from Anthropic or any other study provider is
+reproduced in this repository.
